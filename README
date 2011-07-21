@@ -1,0 +1,10 @@
+Drag the .xpi into a komodo window.
+
+Follow the instructions, including restarting Komodo.
+
+Go to Komodo->Preferences
+
+Under File Associations, add a New Association with the pattern *.j and the language dropdown set to Objective J
+
+Ok the dialog, and you should now have Objective-J Syntax highlighting. Awesome.
+
