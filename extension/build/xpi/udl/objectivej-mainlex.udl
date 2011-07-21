@@ -1,0 +1,15 @@
+# UDL for ObjectiveJ
+
+language ObjectiveJ
+
+include "jslex.udl"
+
+include "objjlex.udl"
+
+family markup
+sublanguage html
+
+initial IN_M_DEFAULT
+
+state IN_M_DEFAULT:
+/./ : redo, => IN_CSL_DEFAULT
